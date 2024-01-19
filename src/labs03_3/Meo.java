@@ -1,9 +1,9 @@
 package labs03_3;
 
 public class Meo extends Information{
-	public static void display()
+	public void display()
 	{
-		System.out.println(name);
+		//System.out.println(name + " " + age + " " + " " + height + " " + weight);
 	}
 	
 }

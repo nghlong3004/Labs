@@ -1,20 +1,29 @@
 package labs03_3;
 
-public class Information {
-
-	private String name;
+public class Person {
+	// cac thuoc tinh cua doi tuong
+	private String name, address;
 	private int age;
 	private double height, weight;
-	public Information() {
-		this.name = "";
-		this.age = 0;
-		height = weight = 0;
-	}
+	private double gender;
+	// cac ham setter, getter cua doi tuong
 	public String getName() {
 		return name;
 	}
+	public double getGender() {
+		return gender;
+	}
+	public void setGender(double gender) {
+		this.gender = gender;
+	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	public int getAge() {
 		return age;
@@ -34,5 +43,6 @@ public class Information {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
+	
 	
 }
