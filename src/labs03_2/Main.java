@@ -6,18 +6,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		PS a = new PS(), b = new PS();
+		Calculation a = new Calculation(), b = new Calculation();
 		Scanner scan = new Scanner (System.in);
 		System.out.print("Enter a and b respectively : " + '\n');
-		a.tuSo = scan.nextInt();
-		a.mauSo = scan.nextInt();
-		b.tuSo = scan.nextInt();
-		b.mauSo = scan.nextInt();
-		Calculation.add(a, b);
-		Calculation.sub(a, b);
-		Calculation.mul(a, b);
-		Calculation.div(a, b);
-		Calculation.equals(a, b);
+		a.setTuSo(scan.nextInt());
+		a.setMauSo(scan.nextInt());
+		b.setTuSo(scan.nextInt());
+		b.setMauSo(scan.nextInt());
+		Calculation c = new Calculation();
+		a.add(a, b);
+		a.sub(a, b);
 		if(scan != null) {
 			scan.close();
 		}
