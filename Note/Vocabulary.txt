@@ -1,0 +1,13 @@
+Information hiding : Che giấu thông tin
+Object-oriented programming : Lập trình hướng đối tượng
+Information-hiding : Chương trình nhúng
+Abstraction : Trừu tượng hóa
+Encapsulation : Đóng gói
+Inheritance : Kế thừa
+Polymorphism : Đa hình
+Filer : Trường dữ liệu
+Method : Phương thức
+State : Trạng thái
+Instance variable : biến thực thể
+Data member : Thành viên dữ liệu
+
