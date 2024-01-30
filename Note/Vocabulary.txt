@@ -8,6 +8,21 @@ Polymorphism : Đa hình
 Filer : Trường dữ liệu
 Method : Phương thức
 State : Trạng thái
-Instance variable : biến thực thể
+Instance variable : Biến thực thể
 Data member : Thành viên dữ liệu
-
+World Wide Web: Mạng toàn cầu
+Platform independent : Độc lập nền tảng
+Platform : Nền tảng
+Virtual Machine : Máy ảo
+Instruction : Chỉ thị
+Fetch and execute : Nạp và thực thi
+Integrated development environment : Môi trường lập trình tích hợp
+Branching : Rẽ nhánh
+Loop : Lặp
+Instance attribute : Thuộc tính thực thể
+Alarm : Báo thức
+Clock : Đồng hồ
+Entry : Lối vào
+Identifer: Định danh
+Garbage collector : Bộ phận dọn rác
+Argument : Đối số
